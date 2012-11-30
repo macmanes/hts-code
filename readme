@@ -1,0 +1,10 @@
+git checkout sonal #switch to your branch
+git add 'files' #add files to be tracked
+git commit -a -m 'committ message' # prepare for upload
+git push #actually upload
+
+
+git rm sonal.txt
+git commit -a -m 'sonal remove'
+git push
+
