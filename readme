@@ -1,0 +1,10 @@
+git checkout kebi #switch to your branch
+git add 'files' #add files to be tracked
+git commit -a -m 'commit message' # prepare for upload
+git push #actually upload
+
+
+git rm R* se* #to rm files
+git commit -a -m 'cleanup'
+git push
+
