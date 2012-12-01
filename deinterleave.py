@@ -1,5 +1,13 @@
 #! /usr/bin/env python
-import screed, sys, itertools
+
+##
+#Adapted from C. Titus Brown's interleave script in the khmer package.  
+#Contact Matthew MacManes macmanes@gmail.com for support
+##
+
+##Usage: python deinterleave.py interleaved.fq left.fq right.fq
+
+import screed, sys
 
 in_file = sys.argv[1]
 out1_file = sys.argv[2]
