@@ -1,11 +1,7 @@
 #!/usr/bin/env Rscript 
 
 # This R script, "plotSeqLengthDist," plots distributions of sequence lengths from an arbitrary number of FASTA files.
-# It is licensed under Creative Commons, Attribution+Noncommercial+ShareAlike
-# http://creativecommons.org/licenses/by-nc-sa/2.5/
-# Author: Scott Fay
-# 5 December 2012
-
+#
 # command line usage:
 #
 # $ ./plotSeqLengthDist.R <file1 file2 ... > [-o <outputFile.ext>] [-s, -l, -d]
@@ -17,8 +13,6 @@
 # -l : make superimposed (layered) histogram
 # -d : make density plot
 #
-# remember to make me executable, i.e., "chmod 755 seqLengthDist.R"
-
 # Packages needed: ggplot2 and Biostrings (via Bioconductor)
 # *** In the future, automated check for dependencies?
 #
@@ -28,6 +22,13 @@
 # To install Biostrings in your R interpreter:
 # > source("http://bioconductor.org/biocLite.R")
 # > biocLite("Biostrings")
+#
+# plotSeqLengthDist is licensed under Creative Commons, Attribution+Noncommercial+ShareAlike
+# http://creativecommons.org/licenses/by-nc-sa/2.5/
+# Author: Scott Fay
+# 5 December 2012
+
+
 
 # load required libraries
 library(Biostrings)
