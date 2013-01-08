@@ -26,6 +26,7 @@
 # plotSeqLengthDist is licensed under Creative Commons, Attribution+Noncommercial+ShareAlike
 # http://creativecommons.org/licenses/by-nc-sa/2.5/
 # Author: Scott Fay
+# scott.a.fay <at> gmail dot com
 # 5 December 2012
 
 
